@@ -31,6 +31,6 @@ You'll need to already have node and npm installed to run this script. If you're
 
 `npm install --save alchemy-sdk-3.0.0-beta0.0`
 
-4. Add your Alchemy API key to line 6 (we recommend storing it in a .env folder)
+4. Add your Alchemy API key to line 6 (we recommend storing your key in a .env file for production apps)
 
-5. Run the script with the terminal command `node script.js`
+5. Run the script with the terminal command `node get-nfts-script.js`
