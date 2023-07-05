@@ -8,7 +8,7 @@ For demo purposes, we are only printing out the following specific fields for NF
 * Name
 
 Here is the specific API reference: https://docs.alchemy.com/reference/getnftsforowner-v3
-where you can see all the NFT fields available to print out in line 15 of get-nfts-script.js
+where you can see all the NFT fields available to print out at line 19 of get-nfts-script.js
 
 ## Steps to Run
 
