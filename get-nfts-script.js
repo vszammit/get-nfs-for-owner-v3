@@ -2,7 +2,7 @@
 const { Alchemy, Network } = require("alchemy-sdk");
 
 const config = {
-  // We HIGHLY recommend storing your API Key in a .env file
+  // We HIGHLY recommend storing your API Key in a .env file for production apps
   apiKey: "<-----YOUR ALCHEMY API KEY HERE",
   network: Network.ETH_MAINNET,
 };
@@ -19,13 +19,7 @@ const main = async () => {
     console.log("Contract Address:", nft.contract.address);
     console.log("Image URL:", nft.contract.openSeaMetadata.imageUrl);
     console.log("Token ID:", nft.tokenId);
-    console.log("Token Type:", nft.tokenType);
     console.log("Name:", nft.name);
-    console.log("Description:", nft.description);
-    console.log("Token URI:", nft.tokenUri);
-    console.log("Time Last Updated:", nft.timeLastUpdated);
-    console.log("Balance:", nft.balance);
-    console.log("Acquired At:", nft.acquiredAt);
     console.log("----------------------------------");
   });
 };
