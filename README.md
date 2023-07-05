@@ -5,13 +5,7 @@ For demo purposes, we are only printing out the following specific fields for NF
 * Contract Address
 * Image URL
 * Token ID
-* Token Type
 * Name
-* Description
-* Token URI
-* Time Last Updated
-* Balance
-* Acquired At
 
 Here is the specific API reference: https://docs.alchemy.com/reference/getnftsforowner-v3
 where you can see all the NFT fields available to print out in line 19 of script.js
