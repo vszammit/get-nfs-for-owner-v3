@@ -15,7 +15,7 @@ where you can see all the NFT fields available to print out at line 19 of get-nf
 You'll need to already have node and npm installed to run this script. If you're using a Mac you also might need to install xcode to use the git command due to the recent OS upgrade.
 
 1. Clone this repo locally
-`git clone https://github.com/alchemyplatform/get-nfts-script.git`
+`git clone https://github.com/vszammit/get-nfs-for-owner-v3.git`
 
 2. `cd` into the project folder then run:
 
