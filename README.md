@@ -23,7 +23,7 @@ You'll need to already have node and npm installed to run this script. If you're
 
 3. install the Alchemy SDK V3
 
-`npm install --save alchemy-sdk-3.0.0-beta0.0`
+`npm install --save alchemy-sdk@3.0.0-beta.0`
 
 4. Add your Alchemy API key to line 6 (we recommend storing your key in a .env file for production apps)
 
